@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px auto;
+  background-color: #efefef;
+  font-family: 'Staatliches', sans-serif;
+}
+
+button{
+  font-family: 'Staatliches', sans-serif;
+}
+
+body::before {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 436px;
+  background-color: #535971;
+}
+
+fieldset label {
+  font-family: 'Poppins', sans-serif;
+}
+
+legend {
+  width: 622px;
+  font-size: 24px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 16px;
+  padding-top: 30px;
+}
+
+fieldset label {
+  font-size: 14px;
+}
+
+fieldset {
+  border: none;
+}
+
+form {
+  padding: 64px;
+}
+
+.input-wrapper {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.col-2 input {
+  width: 300px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+
+.hour-col {
+  display: flex;
+  gap: 10px;
+}
+
+#mentorship-first-date,
+#mentorship-second-date {
+  width: 300px;
+}
+
+#mentorship-hour-from,
+#mentorship-hour-to {
+  width: 140px;
+  gap: 10px;
+}
+
+#date {
+  /*distancia entre p e caixas date*/
+  margin-bottom: 8px;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+  padding: 0 24px;
+  color: #535971;
+
+  background-color: #fafafc;
+  border-radius: 8px;
+  height: 56px;
+  border-color: hsla(240, 24%, 92%, 1);
+  margin-bottom: 16px;
+}
+
+input:invalid{
+  border: 2px solid red;
+}
+
+form {
+  background-color: #fafafc;
+  width: 750px;
+  height: 1084px;
+  margin: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+header {
+  width: 750px;
+  height: 124px;
+  margin: auto;
+  margin-top: 140px;
+  margin-bottom: 79px;
+}
+
+header h1 {
+  margin-bottom: 16px;
+  font-size: 48px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+header p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+label span {
+  font-size: 12px;
+  color: hsla(258, 14%, 77%, 1);
+}
+
+label span:hover{
+  font-weight: bold;
+  color: rgb(105, 102, 111);
+}
+
+footer {
+  width: 750px;
+  height: 160px;
+  border-radius: 0 0 20px 20px;
+  margin: auto;
+  background-color: #535971;
+  margin-bottom: 366px;
+}
+
+button {
+  width: 608px;
+  height: 55.65px;
+
+  font-size: 22px;
+  color: hsla(0, 0%, 100%, 1);
+
+  background-color: #ff5374;
+  border: none;
+  border-radius: 20px;
+
+  margin: 52.67px 71px 51.68px;
+}
+
+button:hover {
+  background-color: #b93d56;
+  border: 1px solid white;
+}
